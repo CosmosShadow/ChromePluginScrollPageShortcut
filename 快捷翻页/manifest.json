@@ -1,0 +1,12 @@
+{
+	"manifest_version": 2,
+	"name": "快捷上下滑动、翻页",
+	"description": "J快下滑、K快上滑；F慢下滑、D慢上滑；M下一页、U上一页",
+	"version": "1.0",
+	"content_scripts":[
+		{
+			"matches": ["http://*/*"],
+			"js":["jquery-2.0.3.js","bg.js"]
+		}
+	]
+}
