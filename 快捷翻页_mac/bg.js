@@ -12,11 +12,11 @@ $(document).keydown(function(e) {
                 return true;
         }
 
-        //E: 69
-        if (e.which == 69){
-                $("input:first").focus();
-                return false;
-        }
+        // //E: 69
+        // if (e.which == 69){
+        //         $("input:first").focus();
+        //         return false;
+        // }
 
         //H: 72
         if (e.which == 72) {
